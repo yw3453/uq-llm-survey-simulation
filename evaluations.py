@@ -126,7 +126,7 @@ def one_split_run(real_answers, synthetic_answers, questions_id, alpha, gamma, k
         plt.xlabel('k')
         plt.ylabel('train miscoverage rate')
         plt.hlines(threshold, ks[0], ks[-1], colors = 'r', linestyles = 'dashed', label = 'threshold')
-        plt.legend()
+        plt.legend(framealpha=0.3)
         print('threshold: ', threshold)
         print('k_hat: ', k_hat)
         print('synthetic CI width: ', synth_CI_width)
@@ -226,7 +226,8 @@ def plot_reports(reports_all, num_splits, alphas, gamma, metric = 'test_miscov_r
         means_all[key] = means
         errs_all[key] = errs
     
-    plt.figure(figsize = (10, 6))
+    #plt.figure(figsize = (10, 6))
+    plt.figure(figsize = (6, 6))
     colors = ['blue', 'orange', 'green', 'red', 'purple', 'brown', 'pink', 'gray', 'olive', 'cyan']
     if metric == 'test_miscov_rate_lower':
         for i, key in enumerate(reports_all.keys()):
@@ -251,7 +252,7 @@ def plot_reports(reports_all, num_splits, alphas, gamma, metric = 'test_miscov_r
         plt.ylabel('proxy for test miscoverage probability', fontsize = 16)
     elif metric == 'test_miscov_rate_lower':
         plt.ylabel('proxy for test miscoverage probability \n (CI lower bound)', fontsize = 16, multialignment='center')
-    plt.legend()
+    plt.legend(framealpha=0.3)
 
 # create a table of the results of the reports
 # see plot_reports for the parameter descriptions
