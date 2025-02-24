@@ -6,7 +6,7 @@ _Chengpiao Huang, Yuhang Wu, Kaizheng Wang_\
 Paper: (link)
 
 ## Datasets
-To use the datasets, download `data.zip` and extract the files into the same directory as the codes. We used two datasets publicly available on GitHub: [Eedi](https://github.com/joyheyueya/psychometric-alignment) and [OpinionQA](https://github.com/tatsu-lab/opinions_qa). In the `synthetic answers` folder, we keep a folder of `raw` answers from the LLMs and a folder of cleaned answers ready for evaluation. For example, for the Eedi dataset, a `raw` answer may contain an LLM's reasoning and a final answer letter (e.g., 'A'), while a cleaned answer is binary, indicating whether the answer is correct.
+To start, download `Data.zip` and extract the files into the same directory as the code. We used two datasets publicly available on GitHub: [Eedi](https://github.com/joyheyueya/psychometric-alignment) and [OpinionQA](https://github.com/tatsu-lab/opinions_qa). In the `synthetic answers` folder, we keep a folder of `raw` answers from the LLMs and a folder of cleaned answers ready for evaluation. For example, for the Eedi dataset, a `raw` answer may contain an LLM's reasoning and a final answer letter (e.g., 'A'), while a cleaned answer is binary, indicating whether the answer is correct.
 
 ## Running the Code
 1. `evaluations.py` contains all function implementations.
