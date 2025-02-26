@@ -3,7 +3,7 @@ This repository contains the code and data for our paper:
 
 **Uncertainty Quantification for LLM-Based Survey Simulations**\
 _Chengpiao Huang, Yuhang Wu, Kaizheng Wang_\
-Paper: (link)
+Paper: (https://arxiv.org/abs/2502.17773)
 
 ## Datasets
 To start, download `Data.zip` and extract the files into the same directory as the code. We used two datasets publicly available on GitHub: [Eedi](https://github.com/joyheyueya/psychometric-alignment) and [OpinionQA](https://github.com/tatsu-lab/opinions_qa). In the `synthetic answers` folder, we keep a folder of `raw` answers from the LLMs and a folder of cleaned answers ready for evaluation. For example, for the Eedi dataset, a `raw` answer may contain an LLM's reasoning and a final answer letter (e.g., 'A'), while a cleaned answer is binary, indicating whether the answer is correct.
