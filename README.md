@@ -13,7 +13,7 @@ Short version "Uncertainty Quantification for LLM-Based Survey Simulations" appe
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yw3453/uq-llm-survey-simulation.git
 cd uq-llm-survey-simulation
 ```
 
@@ -75,7 +75,8 @@ uq-llm-survey-simulation/
 ├── .venv/                  # Virtual environment
 ├── data/                   # Dataset files (extracted from data.zip)
 │   ├── EEDI/               # EEDI educational assessment dataset
-│   └── OpinionQA/          # OpinionQA opinion polling dataset
+│   ├── OpinionQA/          # OpinionQA opinion polling dataset
+│   └── data_info.md        # More information on data
 ├── src/                    # Python source code
 │   ├── simulations.py      # Synthetic response generation
 │   └── evaluations.py      # Evaluation and analysis
