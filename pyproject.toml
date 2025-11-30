@@ -1,0 +1,15 @@
+[project]
+name = "uq-llm-survey-simulation"
+version = "0.1.0"
+description = "How Many Human Survey Respondents is a Large Language Model Worth? An Uncertainty Quantification Perspective"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+    "tqdm>=4.67.1",
+]
