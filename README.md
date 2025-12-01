@@ -19,7 +19,7 @@ cd uq-llm-survey-simulation
 
 ### 2. Extract Data Folder
 
-The data folder is provided as a zip file. After cloning the repository, extract the data folder and place it in the project root directory. The data folder should be located at the root of the project (same level as `src/` and `notebooks/` directories).
+The data folder is provided as a zip file ([data.zip](data.zip)). After cloning the repository, extract the data folder and place it in the project root directory. The `data/` folder should be located at the root of the project (same level as `src/` and `notebooks/` directories). More information on the data can be found in `data/data_info.md`.
 
 ### 3. Environment Setup
 
@@ -258,10 +258,6 @@ sharpness_analysis(
 4. View results and plots
 
 **Note**: This notebook does not require an API key. It only needs synthetic answer files that have already been generated (see `simulations.ipynb`).
-
-## Data Structure
-
-See [data/data_info.md](data/data_info.md) for details.
 
 ## License
 
